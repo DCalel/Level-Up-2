@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+span {
+  font-size: 5em;
+}
+
+button {
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background: none;
+}
+
+.btndecrementar {
+  border-color: red;
+}
+
+.btnresetear {
+  border-color: blue;
+}
+
+.btnincrementar {
+  border-color: limegreen;
+}
